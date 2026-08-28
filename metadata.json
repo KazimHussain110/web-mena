@@ -1,0 +1,6 @@
+{
+  "name": "KomodoX Digital Studio",
+  "description": "Minimalist, high-performance web engineering and digital studio portfolio showcase displaying bespoke websites, interactive previews, and live destination redirects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
