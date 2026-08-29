@@ -10,6 +10,7 @@ import dreamworldImg from '../../assets/dreamworld.webp';
 import ebmImg from '../../assets/ebm.webp';
 import abayaImg from '../../assets/abaya.webp';
 import treatImg from '../../assets/treat.webp';
+import abwinImg from '../../assets/abwin.webp';
 
 export const INITIAL_PROJECTS: PortfolioProject[] = [
   {
@@ -111,7 +112,7 @@ export const INITIAL_PROJECTS: PortfolioProject[] = [
     year: '2025',
     url: 'https://abwin.vercel.app/',
     displayUrl: 'abwin.vercel.app',
-    headerImage: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=85',
+    headerImage: abwinImg,
     colorAccent: '#457292',
     awards: [{ name: 'Featured Work', type: 'honors', year: '2025' }],
     scores: { design: 9.3, usability: 9.3, creativity: 9.2, content: 9.1, total: 9.22 },
@@ -172,24 +173,6 @@ export const INITIAL_PROJECTS: PortfolioProject[] = [
     techStack: ['Next.js', 'Tailwind CSS'],
     deliverables: ['Corporate Web Platform', 'Product Portfolio'],
     description: 'Corporate platform for EBM.',
-    featured: true
-  },
-  {
-    id: 'wemedia-crew',
-    title: 'WeMediaCrew',
-    client: 'WeMedia Agency',
-    tagline: 'Creative production, content & media collective',
-    category: 'Media & Agency',
-    year: '2025',
-    url: 'https://komodo-p2fe.vercel.app/',
-    displayUrl: 'komodo-p2fe.vercel.app',
-    headerImage: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1600&q=85',
-    colorAccent: '#59b7a6',
-    awards: [{ name: 'Featured Work', type: 'honors', year: '2025' }],
-    scores: { design: 9.4, usability: 9.2, creativity: 9.6, content: 9.2, total: 9.35 },
-    techStack: ['React', 'Tailwind CSS', 'Framer Motion'],
-    deliverables: ['Agency Portfolio', 'Showreel Interface'],
-    description: 'Digital media agency platform for WeMediaCrew.',
     featured: true
   },
   {
