@@ -33,8 +33,11 @@ export const WebsiteHeaderCard: React.FC<WebsiteHeaderCardProps> = ({
         </div>
       </div>
 
-      {/* 2. 16:9 RATIO PREVIEW */}
-      <div className="relative aspect-[16/9] w-full overflow-hidden bg-[#0B0F13]">
+      {/* 2. PREVIEW MATCHING IMAGE ASPECT RATIO */}
+      <div
+        className="relative w-full overflow-hidden bg-[#0B0F13]"
+        style={{ aspectRatio: project.imageAspectRatio ?? 16 / 9 }}
+      >
         <img
           src={imgError ? 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1600&q=85' : project.headerImage}
           alt={`${project.title} website preview`}
