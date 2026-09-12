@@ -11,6 +11,7 @@ import ebmImg from '../../assets/ebm.webp';
 import abayaImg from '../../assets/abaya.webp';
 import treatImg from '../../assets/treat.webp';
 import abwinImg from '../../assets/abwin.webp';
+import seedGroupImg from '../../assets/seed-group.png';
 
 export const INITIAL_PROJECTS: PortfolioProject[] = [
   {
@@ -209,6 +210,24 @@ export const INITIAL_PROJECTS: PortfolioProject[] = [
     techStack: ['React', 'Tailwind CSS'],
     deliverables: ['E-Commerce Boutique', 'Lookbook'],
     description: 'Modest fashion boutique for Noore Abayas.',
+    featured: true
+  },
+  {
+    id: 'seed-group',
+    title: 'Seed Group',
+    client: 'Seed Group',
+    tagline: 'Corporate & business solutions platform',
+    category: 'Corporate & Business',
+    year: '2025',
+    url: 'https://seedgroup.vercel.app/',
+    displayUrl: 'seedgroup.vercel.app',
+    headerImage: seedGroupImg,
+    colorAccent: '#59b7a6',
+    awards: [{ name: 'Featured Work', type: 'honors', year: '2025' }],
+    scores: { design: 9.3, usability: 9.4, creativity: 9.3, content: 9.4, total: 9.35 },
+    techStack: ['Next.js', 'Tailwind CSS'],
+    deliverables: ['Corporate Web Platform', 'Business Showcase'],
+    description: 'Corporate web platform for Seed Group.',
     featured: true
   }
 ];
