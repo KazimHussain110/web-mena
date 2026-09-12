@@ -22,6 +22,7 @@ export interface PortfolioProject {
   url: string;
   displayUrl: string;
   headerImage: string;
+  imageAspectRatio?: number;
   previewType?: 'image' | 'interactive';
   colorAccent: string;
   awards: AwardBadge[];
